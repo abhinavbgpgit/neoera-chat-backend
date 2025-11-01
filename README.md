@@ -36,11 +36,18 @@ A basic Node.js backend application with Express framework.
 
 The server runs on port 8000 by default (can be changed via PORT environment variable).
 
+## Environment Variables
+
+Create a .env file in the root directory with the following variables (use .env.example as reference):
+
+- PORT: The port number for the server (defaults to 8000)
+
 ## Dependencies
 
 - express: Web framework
 - cors: Cross-origin resource sharing
 - helmet: Security headers
+- dotenv: Environment variable management
 
 ## Dev Dependencies
 
